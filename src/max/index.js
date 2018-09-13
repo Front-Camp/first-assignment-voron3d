@@ -8,7 +8,7 @@
 */
 const max = arr => {
   let max;
-
+//test
   for (let i = 0; i < arr.length; i++) {
     if (!isNaN(arr[i]) && arr[i] !== Infinity) {
       if (max === undefined)
@@ -17,6 +17,7 @@ const max = arr => {
         max = arr[i];
     }
   }
+
   return max;
 };
 
