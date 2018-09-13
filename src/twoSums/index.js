@@ -10,6 +10,15 @@
  */
 const twoSums = (arr, base) => {
   /* your logic here...*/
-};
-
-export default twoSums;
+  
+  let arraySum = [];
+  for (let i=0; i<arr.length; i++){
+    for (let j = i; j < arr.length; j++){
+    if (arr[i] + arr[j] === base){
+    arraySum.push(arr[i]);
+  arraySum.push(arr[j]);
+  
+  return arraySum;
+  }  }  }
+  
+  };
